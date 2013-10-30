@@ -1,4 +1,4 @@
-/*
+﻿/*
 * Embed Media Dialog based on http://www.fluidbyte.net/embed-youtube-vimeo-etc-into-ckeditor
 *
 * Plugin name:      mediaembed

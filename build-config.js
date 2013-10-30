@@ -48,8 +48,8 @@ var CKBUILDER_CONFIG = {
 		'font' : 1,
 		'forms' : 1,
 		'format' : 1,
-		'htmlwriter' : 1,
 		'horizontalrule' : 1,
+		'htmlwriter' : 1,
 		'iframe' : 1,
 		'wysiwygarea' : 1,
 		'image' : 1,
@@ -94,7 +94,11 @@ var CKBUILDER_CONFIG = {
 		'richcombo' : 1,
 		'listblock' : 1,
 		'indent' : 1,
-		'menubutton' : 1
+		'menubutton' : 1,
+		'oembed' : 1,
+		'mediaembed' : 1,
+		'sourcedialog' : 1,
+		'texttransform' : 1
 	},
 	languages : {
 		'af' : 1,
