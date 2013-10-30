@@ -1,12 +1,7 @@
-CKEditor 4
-==========
+CKEditor for Bower
+=====================
 
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.  
-http://ckeditor.com - See LICENSE.md for license information.
-
-CKEditor is a text editor to be used inside web pages. It's not a replacement
-for desktop text editors like Word or OpenOffice, but a component to be used as
-part of web applications and websites.
+This repository contains the full release version of CKEditor.
 
 ## Documentation
 
@@ -15,25 +10,41 @@ http://docs.ckeditor.com
 
 ## Installation
 
-Installing CKEditor is an easy task. Just follow these simple steps:
+# A - Using the dependencies listed in the current directory's bower.json
 
- 1. **Download** the latest version from the CKEditor website:
-    http://ckeditor.com. You should have already completed this step, but be
-    sure you have the very latest version.
- 2. **Extract** (decompress) the downloaded file into the root of your website.
+```
+{
+    "name": "your-project",
+    "dependencies": {
+        "ckeditor-full": "4.2.2"
+    }
+}
+```
 
-**Note:** CKEditor is by default installed in the `ckeditor` folder. You can
-place the files in whichever you want though.
+# B - Using a local or remote package
+```
+bower install ckeditor-full
+```
+# C- Using a specific version of a package
+```
+bower install ckeditor-full#4.2.2
+```
 
-## Checking Your Installation
+For more information on installation with bower see [their official documentation](http://bower.io/#installing-packages-and-dependencies)
 
-The editor comes with a few sample pages that can be used to verify that
-installation proceeded properly. Take a look at the `samples` directory.
+### Additional Plugins
 
-To test your installation, just call the following page at your website:
+This repository contains few additional plugins:
 
-	http://<your site>/<CKEditor installation path>/samples/index.html
+  - [oEmbed](http://ckeditor.com/addon/oembed)
+  - [Media Embed](http://ckeditor.com/addon/mediaembed)
+  - [Source Dialog](http://ckeditor.com/addon/sourcedialog)
+  - [Text Transform](http://ckeditor.com/addon/texttransform)
 
-For example:
+For a list of default plugins on full version see: [http://ckeditor.com/presets](http://ckeditor.com/presets)
 
-	http://www.example.com/ckeditor/samples/index.html
+### License
+
+Licensed under the GPL, LGPL and MPL licenses, at your choice.
+
+For full details about license, please check the LICENSE.md file.
