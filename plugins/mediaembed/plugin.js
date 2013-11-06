@@ -50,7 +50,7 @@
            } );
 
             editor.addCommand( 'MediaEmbed', new CKEDITOR.dialogCommand( 'MediaEmbedDialog',
-                { allowedContent: 'iframe[*]' }
+                { allowedContent: 'iframe[*]; object[*]; embed[*]' }
             ) );
 
             editor.ui.addButton( 'MediaEmbed',
